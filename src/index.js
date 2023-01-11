@@ -11,7 +11,6 @@ window.onload = createHome()
 const container = document.querySelector('.container')
 const navButtons = document.querySelectorAll('.btn-nav')
 
-// container.innerHTML = ''
 navButtons.forEach(btn => {
     btn.addEventListener('click', (e)=>{
         document.querySelector('.btn-nav.active').classList.remove('active')

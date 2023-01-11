@@ -4,7 +4,8 @@ module.exports = {
   entry: {index: './src/index.js',
   pageLoad : './src/pageLoad.js',
   homePage : './src/homePage.js',
-  menuPage : './src/menuPage.js'
+  menuPage : './src/menuPage.js',
+  contactPage : './src/contactPage.js'
 },
   output: {
     filename: '[name].bundle.js',
