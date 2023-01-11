@@ -16,5 +16,5 @@ export default function createContact(){
     const mapEl = document.createElement('img')
     mapEl.src = map
     mapEl.classList.add('contact-img')
-    container.appendChild(mapEl)
+    container.appendChild(mapEl) 
 }
